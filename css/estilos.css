@@ -1,0 +1,33 @@
+
+body {
+    background-image: url(../img/dinero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+ 
+.button-delete {
+    background-color: rgb(255, 0, 0) !important;
+    color: white !important;
+    border-radius: 30%;
+}
+
+.button-grey {
+    background-color: rgb(0, 168, 84) !important;
+    color: white !important;
+    border-radius: 30%;
+}
+
+.button-list {
+    background-color: rgb(217, 255, 0) !important;
+    color: rgb(0, 0, 0) !important;
+    border-radius: 30%;
+}
+
+.button-outline {
+    background-color: rgb(0, 68, 255) !important;
+    color: white !important;
+    border-radius: 30%;
+}
