@@ -1,3 +1,30 @@
+
+/*
+const titulo = document.getElementById("titulo")
+const subtitulo = document.getElementById("subtitulo")
+
+const botons = document.getElementsByClassName("btn btn-outline-light") 
+const botones = document.getElementsByClassName("btn btn-outline-light")
+
+const buttons = document.getElementsByClassName("btn btn-outline-light")
+
+function textoDeBotones(){
+    for (let boton of buttons) {
+        console.log(boton.innerText)
+    }
+}
+*/
+
+function crearLista () {
+    const lista = document.getElementById("lista")
+    servicio.forEach(servicio => {
+        const li = document.createElement("li")
+            li.innerText = servicio
+            lista.append(li)
+    })
+}
+
+
 function listarservicio() {
     total = parseInt(prompt("Ingresar servicio requerido"))
     for (let i = 0; i < servicio.length; i++) {
